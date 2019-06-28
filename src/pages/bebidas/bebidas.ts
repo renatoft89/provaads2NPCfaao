@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { HomeADSPage } from '../home-ads/home-ads';
 import { BuscarPratoPage } from '../buscar-prato/buscar-prato';
-import { BebidasPage } from '../bebidas/bebidas';
 import { PerfilPage } from '../perfil/perfil';
 
 @Component({

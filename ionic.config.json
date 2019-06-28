@@ -1,5 +1,6 @@
 {
-  "name": "appProva",
-  "integrations": {},
-  "type": "ionic-angular"
+  "name": "meuApp",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {}
 }

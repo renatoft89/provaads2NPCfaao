@@ -5,7 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 
 
-import { MenuPage } from '../pages/menu/menu';
+import { HomeADSPage } from '../pages/home-ads/home-ads';
 
 
 
@@ -14,7 +14,7 @@ import { MenuPage } from '../pages/menu/menu';
 })
 export class MyApp {
   @ViewChild(Nav) navCtrl: Nav;
-    rootPage:any = MenuPage;
+    rootPage:any = HomeADSPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
