@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Home - ADS
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page2">
+  <ion-list id="homeADS-list2">
+    <ion-item-sliding>
+      <ion-item color="positive" on-click="goToBuscarPrato()" id="homeADS-list-item2" class="Cardapio">
+        <ion-thumbnail item-left>
+          <img src="assets/img/moPUdxmuRNGSUX1I3Z7Y_lanches.jpg" />
+        </ion-thumbnail>
+        <h2>
+          Lanches
+        </h2>
+      </ion-item>
+      <ion-item-options side="left">
+        <button ion-button color="positive"></button>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item color="positive" on-click="goToBuscarPrato()" id="homeADS-list-item3" class="Pizzas">
+      <ion-thumbnail item-left>
+        <img src="assets/img/vEc8Yd3SBa4XN3bq0We6_pizza.jpg" />
+      </ion-thumbnail>
+      <h2>
+        Pizzas
+      </h2>
+    </ion-item>
+    <ion-item color="positive" on-click="goToBebidas()" id="homeADS-list-item4" class="Cardapio">
+      <ion-thumbnail item-left>
+        <img src="assets/img/ITIbpjB4QH4nTGAeJPA3_bebdidas.jpg" />
+      </ion-thumbnail>
+      <h2>
+        Bebidas
+      </h2>
+    </ion-item>
+  </ion-list>
+  <div style="width:100%;height:220px;margin:0px 0px;line-height:250px;background-color:#e8ebef;text-align:center;">
+    <i class="icon ion-image" style="font-size:64px;color:#888;vertical-align:middle;"></i>
+  </div>
+  <div style="width:100%;height:220px;margin:0px 0px;line-height:250px;background-color:#e8ebef;text-align:center;">
+    <i class="icon ion-image" style="font-size:64px;color:#888;vertical-align:middle;"></i>
+  </div>
+  <button id="homeADS-button4" ion-button color="positive" block style="font-size:25px;" on-click="goToPerfil()">
+    Perfil
+  </button>
+</ion-content>
